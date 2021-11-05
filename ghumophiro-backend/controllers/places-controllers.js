@@ -6,21 +6,6 @@ const { validationResult } = require("express-validator");
 const Place = require("../models/place");
 const User = require("../models/user");
 
-let DUMMY_PLACES = [
-  {
-    id: "p1",
-    title: "Hawa Mahal",
-    description: "Hawa hi hawa thandi thandi",
-    location: {
-      lat: 26.9239,
-      lon: 75.8267,
-    },
-    address:
-      "Hawa Mahal Rd, Badi Choupad, J.D.A. Market, Pink City, Jaipur, Rajasthan 302002",
-    creator: "u1",
-  },
-];
-
 // function getPlaceById
 
 const getPlaceById = async (req, res, next) => {
