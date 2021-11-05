@@ -13,7 +13,6 @@ import ImageUpload from "../../shared/components/FormElements/ImageUpload";
 import { AuthContext } from "../../shared/context/auth-context";
 import { useForm } from "../../shared/hooks/form-hook";
 import { useHttpClient } from "../../shared/hooks/http-hook";
-import { Form } from "react-bootstrap";
 
 const NewPlace = () => {
   const auth = useContext(AuthContext);
